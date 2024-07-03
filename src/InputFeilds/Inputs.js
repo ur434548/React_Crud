@@ -93,7 +93,7 @@ export default function Inputs(props) {
         </div>
         <div>
           <button className="btn-create-new" type="submit">
-            {/* {props.userEdit ? "Update User" : "Create New"} */}
+            {props.userEdit ? "Update User" : "Create New"}
           </button>
         </div>
       </div>
