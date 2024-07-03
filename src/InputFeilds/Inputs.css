@@ -1,0 +1,32 @@
+.form-inputs {
+  display: flex;
+  color: black;
+  justify-content: center;
+  margin-top: 20px;
+}
+.form-inputs-inner {
+  height: 35px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 25px;
+  font-family: montserrat;
+  justify-content: baseline;
+  border: 1px solid gray;
+  padding-left: 10px;
+}
+
+.btn-create-new {
+  height: 35px;
+  border-radius: 25px;
+  font-size: 15px;
+  margin-top: 12px;
+  font-weight: 900;
+  font-family: Georgia;
+  cursor: pointer;
+  width: 130px;
+  font-family: montserrat;
+  background-color: rgb(10, 10, 92);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(149, 146, 146, 0.24),
+    0 17px 50px 0 rgba(245, 244, 244, 0.19);
+}

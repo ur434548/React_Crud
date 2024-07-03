@@ -1,0 +1,10 @@
+.App {
+  background-color: rgb(10, 10, 92);
+  color: white;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: montserrat;
+  
+}

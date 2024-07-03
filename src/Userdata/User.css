@@ -1,0 +1,37 @@
+.table {
+  color: black;
+  width: 100%;
+}
+.table-head {
+  background-color: rgb(237, 237, 237);
+  height: 50px;
+}
+
+.table-body {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: aliceblue;
+}
+.btn-table {
+  padding: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: montserrat;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  border-radius: 19px;
+  margin: 5px;
+  width: 60px;
+  background-color: white;
+}
+.btn-table-delete {
+  padding: 8px;
+  width: 60px;
+  font-size: 12px;
+  font-family: montserrat;
+  border: 1px solid orangered;
+  color: orangered;
+  border-radius: 19px;
+  cursor: pointer;
+  background-color: white;
+}
