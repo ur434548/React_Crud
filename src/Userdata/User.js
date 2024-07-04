@@ -24,13 +24,13 @@ export default function User(props) {
               <td>
                 <button
                   className="btn-table"
-                  onClick={() => props.editUser(user)}
+                  onClick={() => props.openModal("edit", user)}
                 >
                   Edit
                 </button>
                 <button
                   className="btn-table-delete"
-                  onClick={() => props.deleteUser(user.phn)}
+                  onClick={() => props.openModal("edit", user)}
                 >
                   Delete
                 </button>

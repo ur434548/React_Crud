@@ -49,7 +49,7 @@ export default function Inputs(props) {
             type="text"
             value={userName}
             autoComplete="off"
-            // required
+            required
             className="form-inputs-inner"
             placeholder="Enter The Name"
             onChange={(e) => setUserName(e.target.value)}
@@ -61,7 +61,7 @@ export default function Inputs(props) {
             type="email"
             value={userEmail}
             autoComplete="off"
-            // required
+            required
             className="form-inputs-inner"
             placeholder="Enter The Email"
             onChange={(e) => setUserEmail(e.target.value)}
@@ -73,7 +73,7 @@ export default function Inputs(props) {
             type="text"
             value={userCnic}
             autoComplete="off"
-            // required
+            required
             className="form-inputs-inner"
             placeholder="Enter The CNIC"
             onChange={(e) => setUserCnic(e.target.value)}
@@ -85,7 +85,7 @@ export default function Inputs(props) {
             type="text"
             value={userPhn}
             autoComplete="off"
-            // required
+            required
             className="form-inputs-inner"
             placeholder="Enter The Phn No"
             onChange={(e) => setUserPhn(e.target.value)}
